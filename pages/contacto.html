@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutbolMayorByN</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/fd55262910.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand"bachhref="#">
+                <img src="../img/icon.jpg" alt="logo" width="80px" height="80px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="torneo.html">Torneo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Planteles
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="plantel.html#enlace1">Primera</a></li>
+                      <li><a class="dropdown-item" href="plantel.html#enlace2">Reserva</a></li>
+                      <li><a class="dropdown-item" href="plantel.html#enlace3">Femenino</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Otros</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/tiendaalbinegra/?hl=es" target="_blank">Tienda</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section id="tituloContacto">
+      <!--ACTUALIZADO-->
+        <h1>CONTACTO</h1>  
+    </section>
+    <span class="lineaCont"></span>
+    <section class="contact">
+        <form class="formCont" action="https://formsubmit.co/futbolmayorbyn@gmail.com" method="POST" >
+            <h2 class="h2Cont">CONTACTO</h2>
+            <div class="grupoEntrada">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="phone">Telefono</label>
+                <input type="Telefonono" name="phone" id="phone" placeholder="Telefono">
+                <label for="email">Email</label>
+                <input type="emal" name="email" id="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="formTxt">
+                    <a href="#">Políticas de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <input class="boton" type="submit" value="Enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/DW-75715/index.html" >
+                <input type="hidden" name="_captcha" value="false" >
+            </div>
+
+        </form>
+    </section>
+    <span class="lineaCont"></span>
+    <footer id="footer">
+        <div class="contenedor">
+            <div class="grupo1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../img/icon2.jpg" alt="Icono">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h3>SOBRE NOSOTROS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, odit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, odit.</p>
+                </div>
+                <div class="box">
+                    <h3>SEGUINOS</h3>
+                    <div class="redsocial">
+                        <a href="https://www.facebook.com/centroblancoynegrocoronelsuarez/?locale=es_LA" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/futbolmayorbyn/?hl=es" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/CenBlancoYNegro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="fa fa-x"></a>
+                        <a href="https://www.youtube.com/@centroblancoynegrooficial1777" target="_blank" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo3">
+                <nav class="botones">
+                    <a href="../index.html">Inicio</a>
+                    <a href="torneo.html">Torneo</a>
+                    <a href="plantel.html">Plantel</a>
+                    <a href="galeria.html">Galeria</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+            <div class="grupo2">
+                <small>&COPY; 2025 <b>Centro Blanco y Negro</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

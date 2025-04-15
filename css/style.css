@@ -1,0 +1,1546 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lilita+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Anton';
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+/*BOTONES DE TODO EL PROYECTO*/
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: rgb(67, 67, 68);
+}
+
+.contenedor{
+    max-width: 1440px;
+    margin: auto;
+}
+.dorado{
+    color: goldenrod;
+    font-family: 'bebas neue';
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*ENCABEZADOS*/
+
+.portada{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#videoFondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.oscurecer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.textoDelante{
+    position: relative;
+    color: #f0faf1;
+    text-align: center;
+}
+
+.textoDelante h1{
+    font-family: 'bebas neue';
+    font-size: 40px;
+    padding: 30px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textoDelante p{
+    font-family: 'bebas neue';
+    font-size: 12px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+#tituloTorneo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/torneo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tituloTorneo h1{
+    color: rgb(145, 139, 139);
+    font-size: 3em;
+    font-family: 'Anton';
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#tituloPlantel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/primera.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tituloPlantel h1{
+    color: rgb(145, 139, 139);
+    font-size: 3em;
+    font-family: "Anton";
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#tituloGaleria{
+    display: flex;
+    font-family: "Anton";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/Camisetas20254.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tituloGaleria h1{
+    color: rgb(145, 139, 139);
+    font-family: "Anton";
+    font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#tituloContacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/partido2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#tituloContacto h1{
+    color: rgb(145, 139, 139);
+    font-size: 3em;
+    font-family: "Anton";
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*PAGINA INICIO DISEÑO*/
+
+#historia .contenedor{
+    text-align: center;
+    padding: 150px 12px;
+    background-color: rgb(168, 168, 170);
+}
+
+#nuestrosPlanteles {
+    background-color: rgb(34, 33, 33);
+    color: rgb(172, 167, 167);
+    text-align: center;
+}
+
+#nuestrosPlanteles .contenedor{
+    padding: 50px 0px;
+}
+
+#nuestrosPlanteles p{
+    display: none;
+    font-size: 15px;
+}
+
+#nuestrosPlanteles h2{
+    font-family: 'bebas neue';
+    margin-top: 0;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#nuestrosPlanteles h3{
+    color: rgb(230, 209, 23);
+    font-family: 'bebas neue';
+    font-size: 40px;
+}
+
+#nuestrosPlanteles .recuadro{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.recuadro:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/primera2.jpg");    
+}
+
+.recuadro:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/reserva.jpg");
+}
+
+.recuadro:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/femenino.jpg");
+}
+
+#localDeVentas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../img/Camisetas20251.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#localDeVentas .contenedor{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#localDeVentas li{
+    color: rgb(225,225,225);
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+#localDeVentas h2{
+    color: rgb(225,225,225);
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+#ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(58, 57, 57);
+    color: whitesmoke;
+    height: 40vh;
+}
+
+#ticket h2{
+    font-family: 'bebas neue';
+    font-size: 30px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ticket button{
+    font-size: 10px;
+}
+
+/*PIE DE PAGINA DEL PROYECTO*/
+#footer {
+    width: 100%;
+    background-color: black;
+}
+
+#footer .grupo1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px 0px;
+}
+
+#footer .grupo1 .box figure {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .grupo1 .box figure img {
+    width: 150px;
+    justify-content: center;
+}
+
+#footer .grupo1 .box h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#footer .grupo1 .box p {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    margin-bottom: 10px;
+}
+
+#footer .grupo1 .box .redsocial{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+#footer .grupo1 .box .redsocial a{
+    display: inline-flex;
+    justify-content: center;
+    text-decoration: solid;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(3, 3, 3);
+    margin-right: 10px;
+    background-color: rgb(141, 140, 140);
+    text-align: center;
+    transition: all 250ms ease;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+#footer .grupo1 .box .redsocial a:hover {
+    color: rgb(248, 191, 2);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#footer .grupo2 {
+    background-color: rgb(78, 77, 77);
+    padding: 10px 15px;
+    text-align: center;
+    color: azure;
+}
+
+#footer .grupo3 .botones a{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#footer .grupo3 .botones a:hover{
+    color: goldenrod;
+}
+
+#footer .grupo2 small{
+    font-size: 15px;
+}
+
+/*SISTEMA RESPONSIVO*/
+
+/*TORNEO*/
+
+/*TABLA DE POSICIONES CSS*/
+
+#TablasA .fotoTablaPos{
+    padding: 20px;
+    background-image: url(../img/fo-ta2.jpg);
+    background-size: cover;
+}
+
+#TablasA .fotoTablaPos .Tor1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#TablasA .fotoTablaPos .Tor2{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#TablasA .lineaTabla{
+    border: 1px solid;
+    color: whitesmoke;
+    width: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 5px;
+    opacity: 0.5;
+
+}
+
+#TablasA .tabla{
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#TablasA .th0{ /*PRIMERA LINEA*/
+    padding: 15px;
+}
+
+#TablasA .thPrincipal{ 
+    text-align: center;
+}
+
+#TablasA .th1{ /*CENTRA LOS RESUMENES DE PARTIDOS*/
+    text-align: center;
+    font-size: 15px;
+}
+
+#TablasA .th2{ /*PUNTOS OBTENIDOS*/
+    text-align: center;
+    font-size: 20px;
+}
+
+#TablasA .th3{
+    font-size: 15px;
+}
+
+#TablasA .fila1Tabla{
+    width: 100%;
+    font-family: 'bebas neue';
+    color: whitesmoke;
+    font-size: 20px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#TablasA .fila2Tabla{ 
+    width: 100%;
+    font-family: 'bebas neue';
+    color: aliceblue;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.thIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.thIconCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*TABLA DE RESULTADOS*/
+
+#resultadosA .fotoResultado{
+    padding: 20px;
+    border-top: 15px solid goldenrod;
+    background-image: url(../img/fo-re1.jpg);
+    background-size: cover;
+}
+
+#resultadosA .fotoResultado .res1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#resultadosA .fotoResultado .res2{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#resultadosA .lineaRes{
+    border: 1px solid;
+    color: whitesmoke;
+    width: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 5px;
+    opacity: 0.5;
+
+}
+
+#resultadosA .lineaResB{
+    border: 1px solid;
+    color: whitesmoke;
+    margin: auto;
+    box-shadow: 1px 1px 5px;
+    opacity: 0.5;
+    padding-top: 10px;
+}
+
+#resultadosA .resLogo{
+    width: 40px;
+}
+
+#resultadosA .fechaRes{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    align-items: center;
+}
+
+#resultadosA .fechaRes .equipoRes{
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+#resultadosA .fechaRes .vs{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#resultadosA .fechaRes .golRes{
+    font-size: 30px;
+    padding: 10px;
+    color: goldenrod;
+}
+
+#resultadosA .golConvertido{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: whitesmoke;
+    text-align: right;
+    margin: 1px;
+}
+
+/*Plantel*/
+
+.plantelH1{
+    font-family: 'bebas neue';
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.plantelH2{
+    font-family: 'bebas neue';
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lineaPlantel{
+    background: black;
+    height: 3px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.lineaPlantel2{
+    background: black;
+    height: 2px;
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.plantelFoto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    width: 80%;
+    margin: auto;
+    grid-gap: 3px;
+    padding: 3px 0;
+    overflow: hidden;
+}
+
+.plantelFoto > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+}
+
+.plantelFoto img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.plantelFoto a:hover img{
+    transform: rotate(10deg) scale(1.5);    
+}
+
+.plantelFoto .nombre{
+    font-size: 12px;
+    font-family: 'bebas neue';
+    color: goldenrod;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.lightBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.lightBox img{
+    width: 75vw;
+    max-height: 85vh; 
+    object-fit: contain;  
+}
+
+.lightBox:target{
+    transform: scale(1);
+}
+
+/*linea divisoria*/
+
+.lineaDivisoria{
+    background: goldenrod;
+    height: 20px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+/*linea divisoria Femenina*/
+
+.lineaDivisoriaF{
+    background: rgb(248, 180, 208);
+    height: 20px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+/*Plantel Reserva*/
+
+.plantelH1R{
+    font-family: 'bebas neue';
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgba(248, 247, 247,0.5);
+}
+
+.plantelH2R{
+    font-family: 'bebas neue';
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lineaPlantelR{
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.lineaPlantel2R{
+    background: goldenrod;
+    height: 2px;
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.plantelFotoR {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    width: 80%;
+    margin: auto;
+    grid-gap: 3px;
+    padding: 3px 0;
+    overflow: hidden;
+}
+
+.plantelFotoR > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+}
+
+.plantelFotoR img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.plantelFotoR a:hover img{
+    transform: rotate(10deg) scale(1.5);    
+}
+
+.plantelFotoR .nombre{
+    font-size: 12px;
+    font-family: 'bebas neue';
+    color: goldenrod;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+/*Plantel Femenino*/
+
+.plantelH1F{
+    font-family: 'bebas neue';
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgba(248, 247, 247,0.5);
+}
+
+.plantelH2F{
+    font-family: 'bebas neue';
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    background-color: black;
+    color: rgb(248, 180, 208);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lineaPlantelF{
+    background: rgb(255, 255, 255);
+    height: 3px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.lineaPlantel2F{
+    background: rgb(248, 180, 208);
+    height: 2px;
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 2px;
+}
+
+.plantelFotoF {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    width: 80%;
+    margin: auto;
+    grid-gap: 3px;
+    padding: 3px 0;
+    overflow: hidden;
+}
+
+.plantelFotoF > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+}
+
+.plantelFotoF img{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.plantelFotoF a:hover img{
+    transform: rotate(10deg) scale(1.5);    
+}
+
+.plantelFotoF .nombre{
+    font-size: 12px;
+    font-family: 'bebas neue';
+    color: rgb(248, 180, 208);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+/*GALERIA*/
+
+.galeriaH1{
+    font-family: 'bebas neue';
+    font-size: 40px;
+    margin-top: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.linea{
+    background: black;
+    height: 3px;
+    opacity: 0.5;
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 5px;
+}
+
+.galeriaFoto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    width: 80%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.galeriaFoto > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6PX rgba(0, 0, 0, 0.5);
+}
+
+.galeriaFoto img{
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.galeriaFoto a:hover img{
+    transform: rotate(10deg) scale(1.5)
+}
+
+.lightBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.lightBox img{
+    width: 75vw;
+    max-height: 85vh; 
+    object-fit: contain;  
+}
+
+.lightBox:target{
+    transform: scale(1);
+}
+
+.close{
+    font-family: 'bebas neue';
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    top: 40px;
+    right: 40px;
+    background: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.next{
+    display: block;
+    background: black;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/*VIDEOS*/
+
+.galeriaVideo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.galeriaVideo > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6PX rgba(0, 0, 0, 0.5);
+}
+
+.galeriaVideo video{
+    width: 100%;
+    vertical-align: top;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.8s;
+}
+
+.galeriaVideo a:hover video{
+    transform: rotate(10deg) scale(1.5)
+}
+
+.lightBoxVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.lightBoxVideo video{
+    width: 90vw;
+    max-height: 70vh; 
+    object-fit: contain;  
+}
+
+.lightBoxVideo:target{
+    transform: scale(1);
+}
+
+.galeriaH2{
+    font-family: 'bebas neue';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+/*-CONTACTO*/
+
+.contact{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formCont{
+    padding: 50px 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 340px;
+    border-radius: 15px;
+}
+
+.grupoEntrada{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.h2Cont{
+    color: black;
+    text-shadow: 1px 1px 5px rgba(248, 247, 247,0.5);
+    font-family: 'bebas neue';
+    font-size: 40px;
+}
+
+label{
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;    
+}
+
+input, textarea{
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 213, 213);
+    border: 2px solid #f0faf1;
+    outline: none;
+    color: black;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(156, 160, 160);
+    font-size: 10px;
+}
+
+.formTxt {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.formTxt a {
+    color: goldenrod;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.boton{
+    font-family: 'bebas neue';
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 2px 2px 10ps rgba(0,0,0,0.5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: goldenrod;
+}
+
+.lineaCont{
+    background: goldenrod;
+    height: 4px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 720px){
+    
+    /*ENCABEZADO*/
+
+    .textoDelante h1{
+        font-family: 'bebas neue';
+        font-size: 100px;
+        padding: 15px;
+    }
+    
+    #tituloTorneo h1{
+        font-size: 4em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #tituloPlantel h1{
+        font-size: 4em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #tituloGaleria h1{
+        font-size: 4em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #tituloContacto h1{
+        font-size: 4em;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    #tituloPlantel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 60vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/primera2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /*PAGINAINICIO*/
+
+    #historia .contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #historia .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: center;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #historia h2{
+        margin-top: 0;
+    }
+
+    #historia .imgHistoria{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url("../img/Camisetas20252.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #nuestrosPlanteles .cuadro{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestrosPlanteles p{
+        display: block;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    #nuestrosPlanteles h3{
+        margin-top: 45px;
+    }
+
+    #nuestrosPlanteles .recuadro{
+        padding: 15px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(60,60,60,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    /*PIE DE PAGINA*/
+
+    #footer .grupo1{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 5px 0px;
+    }
+
+    #footer .grupo3 .botones{
+        display: flex;
+        justify-content: center;
+        padding: 15px;   
+    }
+    
+    /*TABLAS*/
+
+    #TablasA .tabla{
+        max-width: 600px;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+
+    #TablasA .fotoTablaPos{
+        padding: 20px;
+        background-image: url(../img/fo-ta2.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    /*RESULTADOS*/
+
+    #resultadosA .fechaRes{
+        max-width: 800px;
+        margin-top: 15px;
+        margin: auto;
+    }
+
+    #resultadosA .fechaRes .equipoRes{
+        color: whitesmoke;
+        padding: 5px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    
+    #resultadosA .fechaRes .vs{
+        font-size: 35px;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #resultadosA .fechaRes .golRes{
+        font-size: 60px;
+        padding: 10px;
+        color: goldenrod;
+    }
+    
+    #resultadosA .golConvertido{
+        max-width: 700px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        color: whitesmoke;
+        text-align: right;
+        margin: auto;
+    }
+    
+    #resultadosA .resLogo{
+        width: 60px;
+    }
+    
+    /*GALERIA*/
+
+    .galeriaH1{
+        font-family: 'bebas neue';
+        font-size: 80px;
+        margin-top: 15px;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    /*PLANTEL PRIMERA*/
+
+    .plantelH1{
+        font-family: 'bebas neue';
+        font-size: 80px;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .plantelH2{
+        font-family: 'bebas neue';
+        font-size: 45px;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .plantelFoto img{
+        display: flex;
+        width: 100px;
+        height: 300px;
+        transition: transform 0.8s;
+    }
+
+    .plantelFoto{
+        display: flex;
+        width: 80%;
+        margin: auto; 
+        align-items: center;      
+    }
+
+    .plantelFoto .nombre{
+        font-size: 15px;
+        font-family: 'bebas neue';
+        color: goldenrod;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-align: center;
+    }
+
+    /*PLANTEL RESERVA*/
+
+    .plantelH1R{
+        font-family: 'bebas neue';
+        font-size: 80px;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .plantelH2R{
+        font-family: 'bebas neue';
+        font-size: 45px;
+        font-weight: 300;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .plantelFotoR img{
+        display: flex;
+        width: 100px;
+        height: 300px;
+        transition: transform 0.8s;
+    }
+
+    .plantelFotoR{
+        display: flex;
+        width: 80%;
+        margin: auto; 
+        align-items: center;      
+    }
+
+    .plantelFotoR .nombre{
+        font-size: 15px;
+        font-family: 'bebas neue';
+        color: goldenrod;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-align: center;
+    }
+
+    /*PLANTEL FEMENINA*/
+
+    .plantelH1F{
+        font-family: 'bebas neue';
+        font-size: 80px;
+        font-weight: 400;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .plantelH2F{
+        font-family: 'bebas neue';
+        font-size: 45px;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(248, 180, 208);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .plantelFotoF img{
+        display: flex;
+        width: 100px;
+        height: 300px;
+        transition: transform 0.8s;
+    }
+
+    .plantelFotoF{
+        display: flex;
+        width: 80%;
+        margin: auto; 
+        align-items: center;      
+    }
+
+    .plantelFotoF .nombre{
+        font-size: 15px;
+        font-family: 'bebas neue';
+        color: rgb(248, 180, 208);
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+        text-align: center;
+    }
+
+    /*nuevo cambio*/
+
+    #ticket h2{
+        font-size: 60px;
+    }
+    
+    #ticket button{
+        font-size: 17px;
+    }
+
+    #footer .grupo1 .box p {
+        font-size: 15px;
+    }
+    
+    #footer .grupo1 .box h3 {
+        font-size: 20px;
+    }
+
+    #footer .grupo3 .botones a{
+        font-size: 15px;
+    }
+
+    /*CONTACTO*/
+
+    .formCont{
+        padding: 50px 55px;
+        width: 500px;
+    }
+    .formTxt a {
+        font-size: 15px;
+    }
+
+    .textoDelante p{
+        font-family: 'bebas neue';
+        font-size: 20px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+}
