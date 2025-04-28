@@ -56,8 +56,17 @@
             </div>
           </nav>
     </header>
-    <section id="tituloGaleria">
-        <h1>GALERIA</h1>
+    <section>
+      <div class="portada">
+          <video autoplay muted preload loop id="videoFondo">
+              <source src="../video/PresCamiseta4.mp4" type="video/mp4">
+          </video>
+          <div class="oscurecer"></div>
+          <div class="textoDelante">
+              <h1>GALERIA <br>CENTRO BLANCO Y NEGRO</h1>
+              <p>PERTENENCIA/COMPROMISO</p>
+          </div>
+      </div>
     </section>
 
     <span class="lineaCont"></span>
@@ -142,9 +151,15 @@
       <a href="#video4">
           <video src="../video/PresCamiseta4.mp4"></video>
       </a>
+      <a href="#video5">
+        <video src="../video/video1.mp4"></video>
+      </a>
+      <a href="#video6">
+        <video src="../video/video2.mp4"></video>
+      </a>
     </section>
     <article class="lightBoxVideo" id="video1">
-        <a href="#video4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="#video6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <video controls src="../video/PresCamiseta1.mp4"></video>
         <a href="#video2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
         <a href="#" class="close">X</i></a>  
@@ -164,6 +179,18 @@
     <article class="lightBoxVideo" id="video4">
       <a href="#video3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
       <video controls src="../video/PresCamiseta4.mp4"></video>
+      <a href="#video1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#" class="close">X</i></a>  
+    </article>
+    <article class="lightBoxVideo" id="video5">
+      <a href="#video4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <video controls src="../video/video1.mp4"></video>
+      <a href="#video6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+      <a href="#" class="close">X</i></a>  
+    </article>
+    <article class="lightBoxVideo" id="video6">
+      <a href="#video5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+      <video controls src="../video/video2.mp4"></video>
       <a href="#video1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
       <a href="#" class="close">X</i></a>  
     </article>

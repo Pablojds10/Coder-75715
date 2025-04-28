@@ -1,0 +1,200 @@
+body{
+    #historia{
+        .contenedor{
+            text-align: center;
+            padding: 40px 12px;
+            background-color: rgb(168, 168, 170);
+        }
+    } 
+    #nuestrosPlanteles {
+        background-color: rgb(34, 33, 33);
+        color: rgb(172, 167, 167);
+        text-align: center;
+        .contenedor{
+            padding: 50px 0px;
+            h2{
+                font-family: 'bebas neue';
+                margin-top: 0;
+                font-size: 3.5em;
+                text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            }
+            .cuadro{
+                .recuadro{
+                    background-position: center center;
+                    background-size: cover;
+                    padding: 50px;
+                    margin: 20px;
+                    border-radius: 15px;
+                    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                    p{
+                        display: none;
+                        font-size: 15px;
+                    }
+                    h3{
+                        color: rgb(230, 209, 23);
+                        font-family: 'bebas neue';
+                        font-size: 40px;
+                    }
+                }
+                .recuadro:first-child{
+                    background-image: linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)
+                    )
+                    ,url("../img/primera2.jpg");    
+                }
+                .recuadro:nth-child(2){
+                    background-image: linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)
+                    )
+                    ,url("../img/reserva.jpg");
+                }
+                .recuadro:nth-child(3){
+                    background-image: linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)
+                    )
+                    ,url("../img/femenino.jpg");
+                }
+            }
+        }
+    }
+    #localDeVentas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 60vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/Camisetas20251.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        .contenedor{
+            text-align: center;
+            padding: 100px 12px;
+            .texto{
+                h2{
+                    color: rgb(225,225,225);
+                    margin-top: 10px;
+                    font-size: 2.5em;
+                }
+                ul{
+                    li{
+                        color: rgb(225,225,225);
+                        margin: 12px 0;
+                        font-weight: bold;
+                    }
+                    form{
+                        button{
+                            font-size: 1em;
+                            font-weight: bold;
+                            padding: 10px 30px;
+                            border-radius: 10px;
+                            border: 2px solid rgba(0,0,0,0.3);
+                            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                            color: white;
+                            background-color: black;
+                        }
+                        button:hover{
+                            background-color: rgb(67, 67, 68);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #ticket{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(58, 57, 57);
+        color: whitesmoke;
+        height: 40vh;
+        .contenedor{
+            h2{
+                font-family: 'bebas neue';
+                font-size: 30px;
+                text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            }
+            button{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 720px){
+    body{
+        #historia{
+            .contenedor{
+                display: flex;
+                justify-content: space-evenly;
+                .texto{
+                    width: 50%;
+                    max-width: 600px;
+                    text-align: center;
+                    padding-left: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h2{
+                        margin-top: 0;
+                        .dorado{
+                            color: goldenrod;
+                            font-family: 'bebas neue';
+                            font-size: 70px;
+                            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+                        }
+                    }
+                }
+                .imgHistoria{
+                    background-image: linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)
+                    ), url("../img/Camisetas20252.jpg");
+                    background-size: cover;
+                    background-position: center center;
+                    height: 500px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+    #nuestrosPlanteles{
+        .contenedor{
+            .cuadro{
+                display: flex;
+                justify-content: center;
+                .recuadro{
+                    padding: 15px;
+                    background-size: 100% 150px;
+                    background-repeat: no-repeat;
+                    background-position-y: 0;
+                    background-color: rgba(60,60,60,0.5);
+                    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                    p{
+                        display: block;
+                        margin-top: 80px;
+                        margin-bottom: 30px;
+                    }
+                    h3{
+                        margin-top: 45px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,431 @@
+body{
+    .plantelH1{
+        font-family: 'bebas neue';
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: whitesmoke;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    .plantelH2{
+        font-family: 'bebas neue';
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .lineaPlantel{
+        background: black;
+        height: 3px;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .lineaPlantel2{
+        background: black;
+        height: 2px;
+        width: 80%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .plantelFoto {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        width: 80%;
+        margin: auto;
+        grid-gap: 3px;
+        padding: 3px 0;
+        overflow: hidden;
+        a{
+            display: block;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+            img{
+                width: 100%;
+                vertical-align: top;
+                height: 200px;
+                object-fit: cover;
+                transition: transform 0.8s;
+            }
+            .nombre{
+                font-size: 12px;
+                font-family: 'bebas neue';
+                color: goldenrod;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+                text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        }
+        a:hover{
+            img{
+                transform: rotate(10deg) scale(1.5);    
+            }
+        } 
+    }
+    .lineaDivisoria{
+        background: goldenrod;
+        height: 20px;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .lineaDivisoriaF{
+        background: rgb(248, 180, 208);
+        height: 20px;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .plantelH1R{
+        font-family: 'bebas neue';
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgba(248, 247, 247,0.5);
+    }
+    .plantelH2R{
+        font-family: 'bebas neue';
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .lineaPlantelR{
+        background: rgb(255, 255, 255);
+        height: 3px;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .lineaPlantel2R{
+        background: goldenrod;
+        height: 2px;
+        width: 80%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .plantelFotoR {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        width: 80%;
+        margin: auto;
+        grid-gap: 3px;
+        padding: 3px 0;
+        overflow: hidden;
+        a{
+            display: block;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+            img{
+                width: 100%;
+                vertical-align: top;
+                height: 200px;
+                object-fit: cover;
+                transition: transform 0.8s;
+            }
+            .nombre{
+                font-size: 12px;
+                font-family: 'bebas neue';
+                color: goldenrod;
+                position: absolute;
+                top: 90%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+                text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+        }
+        a:hover{
+            img{
+                transform: rotate(10deg) scale(1.5);    
+            }
+        } 
+    }
+    .plantelH1F{
+        font-family: 'bebas neue';
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 10px rgba(248, 247, 247,0.5);
+    }
+    .plantelH2F{
+        font-family: 'bebas neue';
+        font-size: 25px;
+        font-weight: 300;
+        text-align: center;
+        background-color: black;
+        color: rgb(248, 180, 208);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .lineaPlantelF{
+        background: rgb(255, 255, 255);
+        height: 3px;
+        width: 100%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .lineaPlantel2F{
+        background: rgb(248, 180, 208);
+        height: 2px;
+        width: 80%;
+        display: block;
+        align-items: center;
+        margin: auto;
+        margin-block-end: 2px;
+    }
+    .plantelFotoF {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        width: 80%;
+        margin: auto;
+        grid-gap: 3px;
+        padding: 3px 0;
+        overflow: hidden;
+        a{
+            display: block;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 2px 2px 10PX rgba(0, 0, 0, 0.5);
+            img{
+                width: 100%;
+                vertical-align: top;
+                height: 200px;
+                object-fit: cover;
+                transition: transform 0.8s;
+            }
+        }
+        a:hover{
+            img{
+                transform: rotate(10deg) scale(1.5);    
+            }
+        } 
+    }
+    .lightBox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: transform .3s ease-in-out;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        img{
+            position: relative;
+            width: 75vw;
+            max-height: 85vh; 
+            object-fit: contain;  
+        }
+        .close{
+            font-family: 'bebas neue';
+            font-size: 25px;
+            display: block;
+            position: absolute;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            top: 40px;
+            right: 40px;
+            background: rgb(0, 0, 0);
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+        }
+        .next{
+            display: block;
+            background: black;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        .nombre{
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: whitesmoke;
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1);
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .nomyAp{
+            font-family: 'bebas neue';
+            font-size: 25px;
+            color: goldenrod;
+            text-decoration: overline underline;
+            text-shadow: ppx 2px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+    .lightBox:target{
+        transform: scale(1);
+    }
+    @media (min-width: 720px){  
+        .plantelH1{
+            font-family: 'bebas neue';
+            font-size: 80px;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .plantelH2{
+            font-family: 'bebas neue';
+            font-size: 45px;
+            font-weight: 300;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .plantelFoto{
+            display: flex;
+            width: 80%;
+            margin: auto; 
+            align-items: center;   
+            a{
+                img{
+                    display: flex;
+                    width: 100px;
+                    height: 300px;
+                    transition: transform 0.8s;
+                }
+                .nombre{
+                    font-size: 15px;
+                    font-family: 'bebas neue';
+                    color: goldenrod;
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-align: center;
+                }
+            }   
+        }
+        .plantelH1R{
+            font-family: 'bebas neue';
+            font-size: 80px;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+        .plantelH2R{
+            font-family: 'bebas neue';
+            font-size: 45px;
+            font-weight: 300;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .plantelFotoR{
+            display: flex;
+            width: 80%;
+            margin: auto; 
+            align-items: center;   
+            a{
+                img{
+                    display: flex;
+                    width: 100px;
+                    height: 300px;
+                    transition: transform 0.8s;
+                }
+                .nombre{
+                    font-size: 15px;
+                    font-family: 'bebas neue';
+                    color: goldenrod;
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-align: center;
+                }
+            }   
+        }
+        .plantelH1F{
+            font-family: 'bebas neue';
+            font-size: 80px;
+            font-weight: 400;
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            color: white;
+        }
+        .plantelH2F{
+            font-family: 'bebas neue';
+            font-size: 45px;
+            font-weight: 300;
+            text-align: center;
+            color: rgb(248, 180, 208);
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .plantelFotoF{
+            display: flex;
+            width: 80%;
+            margin: auto; 
+            align-items: center;   
+            a{
+                img{
+                    display: flex;
+                    width: 100px;
+                    height: 300px;
+                    transition: transform 0.8s;
+                }
+                .nombre{
+                    font-size: 15px;
+                    font-family: 'bebas neue';
+                    color: rgb(248, 180, 208);
+                    position: absolute;
+                    top: 90%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -webkit-text-stroke: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1.5);
+                    text-align: center;
+                }
+            }   
+        }
+    }
+}

@@ -12,52 +12,61 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand"bachhref="#">
+                <a class="navbar-brand"bachhref="#">
                 <img src="../img/icon.jpg" alt="logo" width="80px" height="80px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="torneo.html">Torneo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                  <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="torneo.html">Torneo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Planteles
+                        Planteles
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#enlace1">Primera</a></li>
-                      <li><a class="dropdown-item" href="#enlace2">Reserva</a></li>
-                      <li><a class="dropdown-item" href="#enlace3">Femenino</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Otros</a></li>
+                        <li><a class="dropdown-item" href="#enlace1">Primera</a></li>
+                        <li><a class="dropdown-item" href="#enlace2">Reserva</a></li>
+                        <li><a class="dropdown-item" href="#enlace3">Femenino</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Otros</a></li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                     <a class="nav-link" href="https://www.instagram.com/tiendaalbinegra/?hl=es" target="_blank">Tienda</a>
-                  </li>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
-              </div>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <section id="tituloPlantel">
-        <h1>PLANTELES</h1>   
+    <section>
+        <div class="portada">
+            <video autoplay muted preload loop id="videoFondo">
+                <source src="../video/PresCamiseta1.mp4" type="video/mp4">
+            </video>
+            <div class="oscurecer"></div>
+            <div class="textoDelante">
+                <h1>PLANTELES<br>PRIMERA/RESERVA/FEMENINO</h1>
+                <p>PERTENENCIA/COMPROMISO</p>
+            </div>
+        </div>
     </section>
 
     <span class="lineaCont"></span>
@@ -88,27 +97,31 @@
     </section>
     <article class="lightBox" id="image1">
         <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-        <img src="../img/ado-ma2.jpg" alt="">          
+        <img src="../img/ado-ma2.jpg" alt=""> 
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>         
         <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close">X</i></a>  
     </article>
     <article class="lightBox" id="image2">
         <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-mi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><I>X</i></a>  
     </article>
     <article class="lightBox" id="image3">
         <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><I>X</i></a>  
     </article>
     <article class="lightBox" id="image4">
         <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><I>X</i></a>  
     </article>
     <span class="lineaPlantel2"></span>  
     <!--DEFENSORES-->
@@ -156,55 +169,63 @@
         <a href="#image13" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/adi-pi2.jpg" alt="Diego Piedrabuena">
         <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><I>X</i></a>  
     </article>
     <article class="lightBox" id="image6">
         <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-he1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image7" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><I>X</i></a>  
     </article>
     <article class="lightBox" id="image7">
         <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aiv-he2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image8">
         <a href="#image7" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image9" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image9">
         <a href="#image8" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-za2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image10" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image10">
         <a href="#image9" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-vi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image11" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image11">
         <a href="#image10" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aro-ma2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image12" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image12">
         <a href="#image11" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-di3.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image13" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image13">
         <a href="#image12" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asi-ru2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2"></span> 
 
@@ -249,69 +270,79 @@
             <p class="nombre">Santiago Garralda</p>
         </a>
         <a href="#image23">
-          <img src="../img/ase-or1.jpg" alt="">
-          <p class="nombre">Sebastián Ortega</p>
+            <img src="../img/ase-or1.jpg" alt="">
+            <p class="nombre">Sebastián Ortega</p>
         </a>
     </section>
     <article class="lightBox" id="image14">
         <a href="#image23" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/afr-la2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image15" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image15">
         <a href="#image14" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-va2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image16" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image16">
         <a href="#image15" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-op1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image17" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image17">
         <a href="#image16" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-sh2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image18" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image18">
         <a href="#image17" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-en2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image19" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image19">
         <a href="#image18" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-re2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image20" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image20">
         <a href="#image19" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ani-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image21" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a> 
     </article>
     <article class="lightBox" id="image21">
         <a href="#image20" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image22" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image22">
         <a href="#image21" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-ga2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image23" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image23">
         <a href="#image22" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ase-or2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image14" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2"></span> 
         
@@ -351,44 +382,51 @@
     <article class="lightBox" id="image24">
         <a href="#image30" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/abr-ma2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image25" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close">X</i></a>  
     </article>
     <article class="lightBox" id="image25">
         <a href="#image24" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-ha2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image26" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image26">
         <a href="#image25" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-lo1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image27" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a> 
     </article>
     <article class="lightBox" id="image27">
         <a href="#image26" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image28" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image28">
         <a href="#image27" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ati-fu2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image29" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image29">
         <a href="#image28" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ava-fl1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image30" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image30">
         <a href="#image29" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-pe2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image24" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace1" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel"></span>
 
@@ -420,27 +458,31 @@
     </section>
     <article class="lightBox" id="image1r">
         <a href="#image4r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-        <img src="../img/ado-ma2.jpg" alt="">          
+        <img src="../img/ado-ma2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>          
         <a href="#image2r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image2r">
         <a href="#image1r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-mi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image3r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a> 
     </article>
     <article class="lightBox" id="image3r">
         <a href="#image2r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image4r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image4r">
         <a href="#image3r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image1r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2R"></span>  
     <!--DEFENSORES-->
@@ -487,56 +529,65 @@
     <article class="lightBox" id="image5r">
         <a href="#image13r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/adi-pi2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image6r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image6r">
         <a href="#image5r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-he1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image7r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image7r">
         <a href="#image6r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aiv-he2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image8r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image8r">
         <a href="#image7r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image9r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image9r">
         <a href="#image8r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-za2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image10r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image10r">
         <a href="#image9r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-vi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image11r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image11r">
         <a href="#image10r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aro-ma2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image12r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image12r">
         <a href="#image11r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-di3.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image13r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image13r">
         <a href="#image12r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asi-ru2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image5r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2R"></span> 
 
@@ -581,72 +632,81 @@
             <p class="nombre">Santiago Garralda</p>
         </a>
         <a href="#image23r">
-          <img src="../img/ase-or1.jpg" alt="">
-          <p class="nombre">Sebastián Ortega</p>
+            <img src="../img/ase-or1.jpg" alt="">
+            <p class="nombre">Sebastián Ortega</p>
         </a>
     </section>
     <article class="lightBox" id="image14r">
         <a href="#image23r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/afr-la2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image15r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image15r">
         <a href="#image14r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-va2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image16r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image16r">
         <a href="#image15r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-op1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image17r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image17r">
         <a href="#image16r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-sh2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image18r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image18r">
         <a href="#image17r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-en2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image19r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image19r">
         <a href="#image18r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-re2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image20r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image20r">
         <a href="#image19r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ani-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image21r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image21r">
         <a href="#image20r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image22r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image22r">
         <a href="#image21r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-ga2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image23r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image23r">
         <a href="#image22r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ase-or2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image14r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
-    <span class="lineaPlantel2R"></span> 
-          
+    <span class="lineaPlantel2R"></span>  
     <!--DELANTEROS-->
     <h2 class="plantelH2R">DELANTEROS</h2>
     <span class="lineaPlantel2R"></span>
@@ -683,44 +743,51 @@
     <article class="lightBox" id="image24r">
         <a href="#image30r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/abr-ma2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image25r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image25r">
         <a href="#image24r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-ha2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image26r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image26r">
         <a href="#image25r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-lo1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image27r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image27r">
         <a href="#image26r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image28r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image28r">
         <a href="#image27r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ati-fu2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image29r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image29r">
         <a href="#image28r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ava-fl1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image30r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image30r">
         <a href="#image29r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-pe2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image24r" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace2" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantelR"></span>
 
@@ -752,27 +819,31 @@
     </section>
     <article class="lightBox" id="image1f">
         <a href="#image4f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-        <img src="../img/ado-ma2.jpg" alt="">          
+        <img src="../img/ado-ma2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>          
         <a href="#image2f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image2f">
         <a href="#image1f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-mi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image3f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image3f">
         <a href="#image2f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image4f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image4f">
         <a href="#image3f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-su2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image1f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2F"></span>  
     <!--DEFENSORES-->
@@ -819,56 +890,65 @@
     <article class="lightBox" id="image5f">
         <a href="#image13f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/adi-pi2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image6f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image6f">
         <a href="#image5f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-he1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image7f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image7f">
         <a href="#image6f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aiv-he2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image8f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image8f">
         <a href="#image7f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image9f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image9f">
         <a href="#image8f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-za2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image10f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image10f">
         <a href="#image9f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-vi2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image11f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image11f">
         <a href="#image10f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aro-ma2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image12f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image12f">
         <a href="#image11f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-di3.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image13f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image13f">
         <a href="#image12f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asi-ru2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image5f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantel2F"></span> 
 
@@ -913,72 +993,81 @@
             <p class="nombre">Santiago Garralda</p>
         </a>
         <a href="#image23f">
-          <img src="../img/ase-or1.jpg" alt="">
-          <p class="nombre">Sebastián Ortega</p>
+            <img src="../img/ase-or1.jpg" alt="">
+            <p class="nombre">Sebastián Ortega</p>
         </a>
     </section>
     <article class="lightBox" id="image14f">
         <a href="#image23f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/afr-la2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image15f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image15f">
         <a href="#image14f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-va2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image16f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image16f">
         <a href="#image15f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-op1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image17f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image17f">
         <a href="#image16r" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aju-sh2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image18f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image18f">
         <a href="#image17f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-en2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image19f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image19f">
         <a href="#image18f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-re2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image20f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image20f">
         <a href="#image19f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ani-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image21f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image21f">
         <a href="#image20f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-al2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image22f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image22f">
         <a href="#image21f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/asa-ga2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image23f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image23f">
         <a href="#image22f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ase-or2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image14f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
-    <span class="lineaPlantel2F"></span> 
-          
+    <span class="lineaPlantel2F"></span>       
     <!--DELANTEROS-->
     <h2 class="plantelH2F">DELANTERAS</h2>
     <span class="lineaPlantel2F"></span>
@@ -1015,44 +1104,51 @@
     <article class="lightBox" id="image24f">
         <a href="#image30f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/abr-ma2.jpg" alt="Diego Piedrabuena">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image25f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image25f">
         <a href="#image24f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aig-ha2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image26f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image26f">
         <a href="#image25f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/aje-lo1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image27f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image27f">
         <a href="#image26f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/apa-ca2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image28f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image28f">
         <a href="#image27f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ati-fu2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image29f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image29f">
         <a href="#image28f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ava-fl1.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image3fr" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <article class="lightBox" id="image30f">
         <a href="#image29f" class="next"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="../img/ama-pe2.jpg" alt="">
+        <P class="nombre"><span class="nomyAp">Donato Manuel</span><br>Fecha de Nacimiento <br>Partidos Jugados <br></P>
         <a href="#image24f" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#" class="close">X</i></a>  
+        <a href="#enlace3" class="close"><i>X</i></a>  
     </article>
     <span class="lineaPlantelF"></span>
 
