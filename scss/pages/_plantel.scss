@@ -70,7 +70,8 @@ body{
         }
         a:hover{
             img{
-                transform: rotate(10deg) scale(1.5);    
+                transform: rotate(10deg) scale(1.5);   
+                filter: grayscale(75%);
             }
         } 
     }
@@ -164,7 +165,8 @@ body{
         }
         a:hover{
             img{
-                transform: rotate(10deg) scale(1.5);    
+                transform: rotate(10deg) scale(1.5);  
+                filter: grayscale(75%);  
             }
         } 
     }
@@ -227,7 +229,8 @@ body{
         }
         a:hover{
             img{
-                transform: rotate(10deg) scale(1.5);    
+                transform: rotate(10deg) scale(1.5);
+                filter: grayscale(75%);    
             }
         } 
     }

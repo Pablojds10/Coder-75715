@@ -16,5 +16,6 @@
     "url": "https://github.com/Pablojds10/Coder-75715/issues"
   },
   "homepage": "https://github.com/Pablojds10/Coder-75715#readme",
-  "description": ""
+  "description": "",
+  "private":"true"
 }

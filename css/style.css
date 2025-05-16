@@ -229,7 +229,7 @@ body #nuestrosPlanteles .contenedor .cuadro .recuadro {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 body #nuestrosPlanteles .contenedor .cuadro .recuadro p {
-  display: none;
+  display: block;
   font-size: 15px;
 }
 body #nuestrosPlanteles .contenedor .cuadro .recuadro h3 {
@@ -347,7 +347,7 @@ body #ticket .contenedor button {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   }
   #nuestrosPlanteles .contenedor .cuadro .recuadro p {
-    display: block;
+    display: none;
     margin-top: 80px;
     margin-bottom: 30px;
   }
@@ -356,22 +356,19 @@ body #ticket .contenedor button {
   }
 }
 body #resultadosA .fotoResultado {
-  padding: 20px;
-  border-top: 15px solid goldenrod;
-  background-image: url(../img/fo-re1.jpg);
-  background-size: cover;
+  background-color: rgb(95, 94, 94);
 }
 body #resultadosA .fotoResultado .res1 {
   color: aliceblue;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 10px;
   margin: auto;
   font-family: "Bebas Neue", sans-serif;
 }
 body #resultadosA .fotoResultado .res2 {
   color: aliceblue;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
   margin: auto;
   font-family: "Bebas Neue", sans-serif;
@@ -379,13 +376,13 @@ body #resultadosA .fotoResultado .res2 {
 body #resultadosA .fotoResultado .lineaRes {
   border: 1px solid;
   color: whitesmoke;
-  width: 400px;
+  width: 320px;
   margin: auto;
   box-shadow: 1px 1px 5px;
   opacity: 0.5;
 }
 body #resultadosA .fotoResultado .fechaRes {
-  margin-top: 15px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-around;
   width: auto;
@@ -393,37 +390,46 @@ body #resultadosA .fotoResultado .fechaRes {
 }
 body #resultadosA .fotoResultado .fechaRes .equipoRes {
   color: whitesmoke;
-  padding: 5px;
-  font-size: 12px;
+  padding: 1px;
+  font-size: 13px;
   vertical-align: middle;
 }
 body #resultadosA .fotoResultado .fechaRes .resLogo {
-  width: 40px;
+  width: 30px;
+  transition: transform 0.5s ease-in-out;
+}
+body #resultadosA .fotoResultado .fechaRes .resLogo:hover {
+  transform: scale(1.8) translateZ(-10px);
 }
 body #resultadosA .fotoResultado .fechaRes .vs {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 3px;
   color: rgb(255, 255, 255);
 }
 body #resultadosA .fotoResultado .fechaRes .golRes {
-  font-size: 30px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 5px;
   color: goldenrod;
 }
 body #resultadosA .fotoResultado .golConvertido {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 10px;
+  font-size: 8px;
   color: whitesmoke;
   text-align: right;
   margin: 1px;
+  transition: transform 0.8s ease-in-out;
+}
+body #resultadosA .fotoResultado .golConvertido:hover {
+  transform: scale(1.5) translateX(-100px);
 }
 body #resultadosA .fotoResultado .lineaResB {
   border: 1px solid;
   color: whitesmoke;
   margin: auto;
+  margin-top: 25px;
   box-shadow: 1px 1px 5px;
   opacity: 0.5;
-  padding-top: 10px;
+  padding: 10px;
 }
 body #TablasA .fotoTablaPos {
   padding: 20px;
@@ -514,29 +520,40 @@ body #TablasA .fotoTablaPos .tabla .fila2Tabla .thIconCon {
     border: 1px solid white;
     border-collapse: collapse;
   }
-  body #resultadosA .fechaRes {
+  body #resultadosA .fotoResultado .fechaRes {
     max-width: 800px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin: auto;
   }
-  body #resultadosA .fechaRes .equipoRes {
+  body #resultadosA .fotoResultado .fechaRes .equipoRes {
     color: whitesmoke;
-    padding: 5px;
-    font-size: 20px;
+    padding: 2px;
+    font-size: 10px;
     vertical-align: middle;
   }
-  body #resultadosA .fechaRes .vs {
-    font-size: 35px;
-    padding: 10px;
+  body #resultadosA .fotoResultado .fechaRes .vs {
+    font-size: 25px;
+    padding: 5px;
     color: rgb(255, 255, 255);
   }
-  body #resultadosA .fechaRes .golRes {
-    font-size: 60px;
-    padding: 10px;
+  body #resultadosA .fotoResultado .fechaRes .golRes {
+    font-size: 40px;
+    padding: 5px;
     color: goldenrod;
   }
-  body #resultadosA .fechaRes .resLogo {
-    width: 60px;
+  body #resultadosA .fotoResultado .fechaRes .resLogo {
+    width: 50px;
+    transition: transform 0.5s ease-in-out;
+  }
+  body #resultadosA .fotoResultado .fechaRes .resLogo:hover {
+    transform: scale(1.8) translateZ(10px);
+  }
+  body #resultadosA .fotoResultado .res2 {
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
   }
   body #resultadosA .golConvertido {
     max-width: 700px;
@@ -545,12 +562,21 @@ body #TablasA .fotoTablaPos .tabla .fila2Tabla .thIconCon {
     color: whitesmoke;
     text-align: right;
     margin: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  body #resultadosA .golConvertido:hover {
+    transform: scale(1.5) translateX(-100px);
   }
 }
 
 .thIcon {
   width: 30px;
   height: 30px;
+  transition: transform 0, 5s ease-in-out;
+}
+
+.thIcon:hover {
+  transform: scale(1.8) translateZ(-10px);
 }
 
 body .linea {
@@ -891,6 +917,7 @@ body .plantelFoto a .nombre {
 }
 body .plantelFoto a:hover img {
   transform: rotate(10deg) scale(1.5);
+  filter: grayscale(75%);
 }
 body .lineaDivisoria {
   background: goldenrod;
@@ -983,6 +1010,7 @@ body .plantelFotoR a .nombre {
 }
 body .plantelFotoR a:hover img {
   transform: rotate(10deg) scale(1.5);
+  filter: grayscale(75%);
 }
 body .plantelH1F {
   font-family: "bebas neue";
@@ -1044,6 +1072,7 @@ body .plantelFotoF a img {
 }
 body .plantelFotoF a:hover img {
   transform: rotate(10deg) scale(1.5);
+  filter: grayscale(75%);
 }
 body .lightBox {
   position: fixed;
